@@ -1,7 +1,7 @@
 const loginForm = document.querySelector("#aspnetForm");
 const signInButton = document.querySelector('.sign-in-btn')
 
-const apiUrl = "http://localhost:3000";
+const apiUrl = "https://gamerica-backend.onrender.com";
 
 loginForm.addEventListener("submit", async (e) => {
   e.preventDefault();
